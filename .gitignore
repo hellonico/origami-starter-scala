@@ -1,5 +1,2 @@
-build.sbt
-project/
-src/
 .idea/
 target/
