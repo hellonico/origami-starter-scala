@@ -30,7 +30,7 @@ version := "1.1"
 // Want to use a published library in your project?
 // You can define other libraries as dependencies in your build like this:
 //libraryDependencies += "origami" %% "origami" % "4.2.0-1"
-libraryDependencies ++= Seq("origami" % "origami" % "4.3.0-3", "origami" % "filters" % "1.11" )
+libraryDependencies ++= Seq("origami" % "origami" % "4.3.0-4", "origami" % "filters" % "1.11" )
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
 // we're adding the cats dependency to the set of dependencies that sbt will go
 // and fetch when it starts up.
