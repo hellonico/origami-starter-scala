@@ -9,7 +9,7 @@ name := "hello-origami"
 organization := "org.hellonico"
 version := "1.2"
 
-libraryDependencies ++= Seq("origami" % "origami" % "4.5.1-0", "origami" % "filters" % "1.11", "origami" % "sources" % "1.0.1" )
+libraryDependencies ++= Seq("origami" % "origami" % "4.9.0-1", "origami" % "filters" % "1.45", "origami" % "sources" % "1.0.1" )
 
 // f*** sbt can't read transitive deps
 libraryDependencies += "org.jetbrains.kotlin" % "kotlin-stdlib" % "1.3.72"
