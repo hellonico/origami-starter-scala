@@ -1,5 +1,5 @@
 
-scalaVersion := "2.13.1"
+scalaVersion := "2.13.14"
 
 resolvers ++= Seq(
   "hellonico" at "https://repository.hellonico.info/repository/hellonico",
@@ -7,9 +7,9 @@ resolvers ++= Seq(
 
 name := "hello-origami"
 organization := "org.hellonico"
-version := "1.2"
+version := "1.3"
 
-libraryDependencies ++= Seq("origami" % "origami" % "4.9.0-1", "origami" % "filters" % "1.45", "origami" % "sources" % "1.0.1" )
+libraryDependencies ++= Seq("origami" % "origami" % "4.9.0-0", "origami" % "filters" % "1.45", "origami" % "sources" % "1.0.1" )
 
 // f*** sbt can't read transitive deps
 libraryDependencies += "org.jetbrains.kotlin" % "kotlin-stdlib" % "1.3.72"

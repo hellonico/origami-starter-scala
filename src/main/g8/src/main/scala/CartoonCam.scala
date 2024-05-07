@@ -1,6 +1,6 @@
 import origami.Camera
 import origami.Origami._
-import origami.filters.Cartoon2
+import origami.filters.cartoon.Cartoon2
 object CartoonCam extends App {
   init()
   var cam = new Camera()
