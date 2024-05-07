@@ -14,7 +14,7 @@ object CaffeCam extends App {
   _net.setPreferableBackend(org.opencv.dnn.Dnn.DNN_BACKEND_OPENCV)
   val labels: util.List[String] = list.get(2).asInstanceOf[java.util.List[String]]
 
-  val age = new java.util.function.Function[Mat,Mat] {
+  val age = new origami.Filter {
     override def apply(f: Mat): Mat = {
       val inputBlob = org.opencv.dnn.Dnn.blobFromImage(f, 1, new Size(256, 256), new Scalar(0), true, true)
       _net.setInput(inputBlob)
